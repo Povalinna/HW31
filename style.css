@@ -1,0 +1,110 @@
+.container {
+  margin-top: 10px;
+  width: 800px;
+  min-height: 200px;
+}
+div {
+  display: inline-block;
+  width: 500px;
+  height: 30px;
+}
+.user {
+  margin: 5px;
+  width: 300px;
+  min-height: 30px;
+  border: 2px solid darkblue;
+  text-align: center;
+}
+.viewBtn {
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  margin-left: -35px;
+}
+.viewBtn:hover {
+  background-color: cadetblue;
+  color: black;
+}
+.btnFormEdit {
+  display: none;
+  width: 100px;
+  display: flex;
+  display: inline-block;
+  margin: 5px 0 5px 30px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.btnConfirm,
+.btnView,
+.btnEdit,
+.btnRemove,
+.btnAdd,
+.btnSave {
+  width: 100px;
+  display: flex;
+  display: inline-block;
+  margin: 5px 15px 5px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.btnConfirm:hover,
+.btnView:hover,
+.btnEdit:hover,
+.btnRemove:hover,
+.btnAdd:hover,
+.btnSave:hover {
+  background-color: blue;
+  color: azure;
+}
+
+#myForm {
+  position: absolute;
+  top: 20px;
+  margin-top: 20px;
+  margin-left: 300px;
+  padding: 3px 30px 10px;
+  width: 300px;
+  min-height: 200px;
+  border: 2px solid darkblue;
+  background-color: aqua;
+  display: none;
+}
+.records {
+  display: none;
+  margin-left: 550px;
+  width: 400px;
+  min-height: 150px;
+  background-color: burlywood;
+  color: black;
+  border: 2px solid darkmagenta;
+}
+.data {
+  padding-left: 10px;
+  margin-bottom: -10px;
+  margin-left: -40px;
+  width: 300px;
+  min-height: 10px;
+  background-color: lightblue;
+  color: black;
+  border: 1px solid darkmagenta;
+  font-size: 18px;
+}
+.name {
+  display: block;
+  width: 50px;
+  height: 20px;
+  border: 2px solid darksalmon;
+  margin-left: 600px;
+  background-color: burlywood;
+  margin-top: -300px;
+}
+.viewUser {
+  position: absolute;
+  right: 100px;
+  bottom: 300px;
+  width: 300px;
+  min-height: 100px;
+  border: 1x solid darkblue;
+}
